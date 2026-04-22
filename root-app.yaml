@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Rooney22/DevOPSPractice.git
     targetRevision: HEAD
-    path: .
+    path: deployments/guestbook
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
